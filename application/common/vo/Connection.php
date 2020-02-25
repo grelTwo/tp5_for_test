@@ -11,12 +11,12 @@ class Connection
 {
     private $type='mysql';           //数据库类型
     private $hostname='127.0.0.1';   //服务器地址
-    private $database='test';    //数据库名
-    private $username='root';        //用户名
-    private $password = 'Eren888..'; //密码
+    private $database='xxxxxx';    //数据库名
+    private $username='xxxxxx';        //用户名
+    private $password = 'xxxxxxx'; //密码
     private $hostport='3306';        //端口
     private $charset='utf8';         //数据库编码默认采用utf8
-    private $prefix='test_';     //数据库表前缀
+    private $prefix='xxxx_';     //数据库表前缀
 
     public function __construct(array $arr=[])
     {
